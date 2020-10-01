@@ -1,8 +1,8 @@
 var express = require('express'),
-    app = express(),
-    path = require('path'),
-    i18n = require('i18next'),
-    i18nFsBackend = require('i18next-node-fs-backend'),
+const app = express(),
+const path = require('path'),
+const i18n = require('i18next'),
+const  i18nFsBackend = require('i18next-node-fs-backend'),
     sprintf = require('i18next-sprintf-postprocessor')
     i18nMiddleware = require('i18next-express-middleware'),
     router = require('express').Router(),
